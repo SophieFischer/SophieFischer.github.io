@@ -1,0 +1,63 @@
+<!doctype html>
+<title> Climate bot </title>
+<style>
+
+    .text {
+        width: 640px;
+        font-family: Arial, serif;
+    }
+  df-messenger {
+      --df-messenger-bot-message: #878fac;
+      --df-messenger-button-titlebar-color: #df9b56;
+      --df-messenger-chat-background-color: #fafafa;
+      --df-messenger-font-color: white;
+      --df-messenger-send-icon: #878fac;
+      --df-messenger-user-message: #479b3d;
+  }
+
+
+
+</style>
+<nav class="text">
+    <h1>L4 CS Honours project - Climate bot</h1>
+    <p>
+        Contact details: Sophie Fischer, 2315300f@student.gla.ac.uk
+    </p>
+
+    <p>
+        Thank you for helping with the user evaluation of my Level 4 Computer Science Project.
+        If you have any questions or nothing is loading, please do not hesitate to contact me.
+    </p>
+
+    <h2> Instructions</h2>
+
+    <p>
+        The COP26 conference in Glasgow is happening this November.
+        Imagine you are a student from Glasgow who is interested in the conference as you care very much about climate
+        justice. You have been to a few Fridays for Future demonstrations, and you think that the climate change is
+        the most important issue that humanity has ever faced.
+
+        Use the bot in the left corner to learn about a topic of your choice and test your knowledge.
+    </p>
+
+    <p>
+        1. Please click the Dialogflow icon item in the bottom corner of the screen now.
+    </p>
+
+    <p>
+        2. After using the agent, please answer the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=KVxybjp2UE-B8i4lTwEzyLp5nTX3DLNKvJQbdDDVAWNUNllWSEswUzc3VlpMS0pZS040QzQ0UFVVUS4u&embed=true">survey</a> below about your experience.
+    </p>
+    <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=KVxybjp2UE-B8i4lTwEzyLp5nTX3DLNKvJQbdDDVAWNUNllWSEswUzc3VlpMS0pZS040QzQ0UFVVUS4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+</nav>
+<body>
+    <title> Climate bot </title>
+    <section class="content">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+          intent="WELCOME"
+          chat-title="climateAgent"
+          agent-id="14fb592c-c4fd-4226-b70b-b9bb88c41eb2"
+          language-code="en"
+        ></df-messenger>
+    </section>
+</body>
